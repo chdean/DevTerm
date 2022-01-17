@@ -78,22 +78,22 @@ enum SKEYS {
  */
 const uint16_t keyboard_maps[][MATRIX_KEYS] = {
   
-  [DEF_LAYER] = { _SELECT_KEY,_START_KEY,_VOLUME_M,'`','[',']','-','=', \
+  [DEF_LAYER] = { _SELECT_KEY,_START_KEY,_VOLUME_M,'`','\\','=','-',']', \
     '1','2','3','4','5','6','7','8',\  
     '9','0',KEY_ESC,KEY_TAB,KEY_UP_ARROW,KEY_DOWN_ARROW,KEY_LEFT_ARROW,KEY_RIGHT_ARROW, \
     'q','w','e','r','t','y','u','i', \ 
     'o','p','a','s','d','f','g','h',\  
     'j','k','l','z','x','c','v','b', \
-    'n','m',',','.','/','\\',';','\'', \
+    'n','m',',','.','[','/',';','\'', \
     KEY_BACKSPACE,KEY_RETURN,KEY_RIGHT_ALT,KEY_RIGHT_CTRL,KEY_RIGHT_SHIFT,' ',EMP,EMP},
  
-  [FN_LAYER] = { _PRINT_KEY,_PAUSE_KEY,_VOLUME_P,'`','[',']',KEY_F11,KEY_F12, \ 
+  [FN_LAYER] = { _PRINT_KEY,_PAUSE_KEY,_VOLUME_P,'`','\\','=',KEY_F11,KEY_F12, \ 
     KEY_F1,KEY_F2,KEY_F3,KEY_F4,KEY_F5,KEY_F6,KEY_F7,KEY_F8,\  
     KEY_F9,KEY_F10,KEY_ESC,KEY_CAPS_LOCK,_FN_KEY_UP_ARROW,_FN_KEY_DOWN_ARROW,_FN_KEY_LEFT_ARROW,_FN_KEY_RIGHT_ARROW, \ 
     'q','w','e','r','t','y','u',KEY_INSERT, \ 
     'o','p','a','s','d','f','g','h',\  
     'j','k','l','z','x','c','v','b', \ 
-    'n','m',_FN_BRIGHTNESS_DOWN,_FN_BRIGHTNESS_UP,'/','\\',';','\'', \ 
+    'n','m',_FN_BRIGHTNESS_DOWN,_FN_BRIGHTNESS_UP,'[','/',';','\'', \ 
     KEY_DELETE,KEY_RETURN,KEY_RIGHT_ALT,KEY_RIGHT_CTRL,KEY_RIGHT_SHIFT,' ',EMP,EMP}
     
 };
